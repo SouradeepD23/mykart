@@ -3,7 +3,7 @@ import AddToCardIcon from "../assets/icons/add_cart.svg";
 const ListItem = (props) => {
     return (
         <div className="item-card">
-            <img className="img-fluid" src="assets/placeholder.png" alt="Placeholder" />
+            <img className="img-fluid" src={props.data.thumbnailUrl} alt="Placeholder" />
             <div className="item-card__information">
                 <div className="pricing">
                     <span>{props.data.discountedPrice}</span>
