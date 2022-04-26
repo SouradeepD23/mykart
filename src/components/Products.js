@@ -6,14 +6,14 @@ const items = [
         itemName : "Item 1",
         actualPrice : 789,
         discountedPrice : 599,
-        thumbnailUrl : "assets/placeholder.jpg"
+        thumbnailUrl : "assets/placeholder.png"
     },
     {    
         id : 2,
         itemName : "Item 2",
         actualPrice : 999,
         discountedPrice : 899,
-        thumbnailUrl : "assets/placeholder.jpg"
+        thumbnailUrl : "assets/placeholder.png"
     }
 ]
 const Products = () => {
